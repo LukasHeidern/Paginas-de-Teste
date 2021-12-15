@@ -1,0 +1,75 @@
+@font-face {
+  font-family: mortalkombat;
+  src: url(mkda.ttf);}
+  
+@font-face {
+  font-family: megaman;
+  src: url(Megaman/MMRock9.ttf);
+}
+
+@font-face {
+  font-family: donkeykong;
+  src: url(Donkey\ Kong/Jumpman.ttf);}
+
+@font-face {
+  font-family: marioluigi2;
+  src: url(Super\ Mario/MarioLuigi2.ttf);}
+
+body{
+  background: url(bg.jpg);
+  background-size: cover;
+  color: #ffffff}
+
+body header{
+  width: 90%;
+  text-align: center;
+  margin: auto;}
+
+body header h1{
+  font-family: mortalkombat;
+  padding: 100px 0;
+  font-size: 80px;}
+
+.game{
+  text-decoration: none;
+  padding: 10px;
+  transition: 500ms;
+  opacity: 50%;
+  background: #0033ff ;
+  margin: 20px;
+  position: relative;
+  border-radius: 50px;
+  vertical-align: top;
+  width: 300px;
+  height: 300px;
+  border: 3px solid #000000;
+  text-align: center;
+  display: inline-block;
+  font-size: 40px;
+  box-sizing: border-box;}
+
+.game img{
+  
+  right:50px;
+  position: absolute; 
+  width: 200px;}
+
+.supermario{
+  color: #ffffff;
+  padding: 20px;
+  font-family: marioluigi2;}
+
+.donkeykong{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 20px;
+  font-family: donkeykong;}
+
+.megaman{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 20px 0 0 0;
+  font-family: megaman;}
+
+.game:hover {
+  opacity: 100%;}
